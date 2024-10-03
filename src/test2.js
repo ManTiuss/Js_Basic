@@ -1,14 +1,7 @@
+'use strict';
+const name = 'my name Volodimir'
+const city = 'my city Chernivci'
 
-const user = {
-  name: "Volodimir",
-  age: 28,
-};
+const greeting = `${name} ${city}`
+console.log(greeting)
 
-function increasedUser(user1) {
-  const updateUserAge = Object.assign({}, user1);
-  updateUserAge.age += 1;
-  return updateUserAge;
-}
-const updateUserAge = increasedUser(user)
-console.log(user.age)
-console.log(updateUserAge.age)
