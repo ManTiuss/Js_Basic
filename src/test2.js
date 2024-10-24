@@ -194,3 +194,62 @@
 // }
 // showMasage('Anna ', 'Hello!')
 // showMasage('Anna ', 'How are you?')
+
+// function checkAge(age) {
+//     if (age >= 18) {
+//         return true
+//     } else {
+//         return confirm('Увас є дозвіл батьків?')
+//     }
+// }
+
+// let age = prompt('Скільки вам років?', 18)
+// if (checkAge(age)) {
+//     alert('Доступ надано')
+// } else {
+//     alert('Доступ не надано')
+// }
+
+// function min(a,b) {
+//     if (a < b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+
+// switch (1) {
+//     case 0:
+//         console.log('Zero')
+//         break;
+//     case 1:
+//         console.log('One')
+//         break;
+//     case 2:
+//         console.log('Two')
+//         break;
+//     case 3:
+//         console.log('Three')
+//         break;
+//     case 4:
+//         console.log('Four')
+//         break;
+//     case 5:
+//         console.log('Five')
+//         break;
+//     case 6:
+//         console.log('Six')
+//         break;
+//     case 7:
+//         console.log('Seven')
+//         break;
+//     case 8:
+//         console.log('Eight')
+//         break;
+//     case 9:
+//         console.log('Nine')
+//         break;
+
+//     default:
+//         break;
+// }
